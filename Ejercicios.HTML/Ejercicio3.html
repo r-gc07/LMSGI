@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <h1>Información Personal:</h1>
+    <fieldset>Información Personal:</fieldset>
 <form action="/action_page.php">
   <label for="fname">Nombre:</label><br>
   <input type="text" id="fname" name="fname" value="..."><br>
@@ -23,7 +23,7 @@
 </form> 
 </body>
 </html>
- <h2>Información de contacto:</h2>
+ <fieldset>Información de contacto:</fieldset>
 <form action="/action_page.php">
   <label for="email">Correo Electrónico:</label><br>
   <input type="text" id="email" name="email" value="..."><br>
@@ -31,7 +31,8 @@
   <input type="text" id="phone" name="phone" value="..."><br><br>
   <label for="address">Dirección:</label><br>
   <input type="text" id="address" name="address" value="..."><br><br>
-   <h3>Información de cuenta:</h3>
+
+   <fieldset>Información de cuenta:</fieldset>
     <label for="NU">Nombre de Usuario:</label><br>
     <input type="text" id="Nombre de Usuario" name="NU" value="..."><br><br>
     <label for="NU">Nombre de Usuario:</label><br>
@@ -40,6 +41,18 @@
     <input type="text" id="Contraseña" name="C" value="..."><br><br>
         <label for="C_Password">Confirmar:</label><br>
     <input type="text" id="Nombre de Usuario" name="NU" value="..."><br><br>
+
+     <fieldset>Preferencias:</fieldset>
+  <form>
+  <input type="radio" id="rojo" name="colr_fav" value="Rojo">
+  <label for="rojo">Rojo</label><br>
+  <input type="radio" id="verde" name="color_fav" value="Verde">
+  <label for="verde">Verde</label><br>
+  <input type="radio" id="azul" name="color_fav" value="Azul">
+  <label for="azul">Azul</label>
+   <input type="radio" id="amarillo" name="color_fav" value="amarillo">
+  <label for="amarillo">Amarillo</label>
+</form>
 
 
 
