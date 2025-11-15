@@ -38,7 +38,50 @@ display: flex;
     align-items: center;
     color: violet;
     }
+
+     nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(255, 0, 208);
+     padding: 15px 40px;
+      }
+    
+    .nav.list {
+      list-style: none;
+     display: flex;
+     gap: 25px;
+      margin: 0;
+      padding: 0;
+     
+   }
+       nav h1{
+      color: rgb(243, 243, 243);
+      padding-left: 15px;
+      }
+
+   .nav.list a{
+     text-decoration: none;
+      color: blanchedalmond;
+    font-size: 25px;
+    background-color: blueviolet;
+    padding: 25px 15px;
+   }
+.nav.list a:hover {
+  background-color: darkorange;
+      }
 </style>
+<header>
+   <ul class="nav.list">
+  <nav>
+    <h1>Coffe</h1>
+    <a href="#Home">Home</a> |
+    <a href="#About us">About us</a>
+    <a href="#Gallery">Gallery</a> |
+    <a href="#Contact">Contact</a>
+</nav>
+   </ul>
+</header>
 
 <body>
     <div class="cta-container">
@@ -46,7 +89,5 @@ display: flex;
  <p  class="cta-text">Hasta un 40% de descuento en productos seleccionados.</p>
  <button class="cta-button">Descubrir Ofertas</button>
 </div>
-
 </body>
 </html>
-    
