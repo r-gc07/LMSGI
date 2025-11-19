@@ -1,0 +1,99 @@
+
+/*Boton y imagen principal🤩*/
+
+body {
+  background-image: url("https://s1.1zoom.me/b5050/510/348387-admin_1920x1080.jpg");
+}
+ .cta-container {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: violet;
+    height: 100vh;
+    }
+  .cta-text h2{
+  margin: 0;
+  padding:0;
+    }
+     
+  .cta-text p{
+  margin: 0;
+  padding:0;
+    }
+
+    .cta-button {
+    background-color: #ff00ae;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: violet;
+    }
+
+/*Menú🤩*/
+   nav{
+      background-color: rgb(235, 0, 252);
+      padding: 10px;
+      text-align: center;
+    }
+    .nav.list {
+     display: flex;
+      list-style-type: none;
+      flex-direction: row
+    }h1{
+      color: rgb(0, 0, 0);
+      text-align: left;
+     
+   }
+   .nav.list a{
+     text-decoration: none;
+      color: blanchedalmond;
+    font-size: 25px;
+    background-color: blueviolet;
+    padding: 25px 15px;
+   }
+.nav.list a:hover {
+
+      }
+
+/*Galeria🤩*/
+body {
+  background-color: #121212;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#gallery-section .section-title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 100px 0 30px;
+}
+
+
+#gallery-section .gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    flex-direction: row;
+}
+
+
+#gallery-section .gallery-list .gallery-item{
+    width:calc(100% / 3 -32px);
+}
+
+
+#gallery-section .gallery-list .gallery-item .gallery-image{
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+}
+
