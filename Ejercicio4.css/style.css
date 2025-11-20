@@ -36,16 +36,15 @@ display: flex;
 /*Menú🤩*/
    nav{
       background-color: rgb(235, 0, 252);
-      padding: 10px;
-      text-align: center;
+      text-align: right;
     }
     .nav.list {
      display: flex;
       list-style-type: none;
-      flex-direction: row
+      flex-direction: row;
     }h1{
-      color: rgb(0, 0, 0);
-      text-align: left;
+      color: rgb(117, 0, 119);
+      text-align: center;
      
    }
    .nav.list a{
@@ -61,12 +60,12 @@ display: flex;
 
 /*Galeria🤩*/
 body {
-  background-color: #121212;
+  background-color: #eb0000;
 }
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 
