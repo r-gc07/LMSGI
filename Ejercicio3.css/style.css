@@ -1,0 +1,55 @@
+/*Boton y imagen principal🤩*/
+ .cta-container {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: violet;
+    height: 100vh;
+    background-image: url("https://s1.1zoom.me/b5050/510/348387-admin_1920x1080.jpg");
+    }
+  .cta-text h2{
+  margin: 0;
+  padding:0;
+  background-image: url("https://s1.1zoom.me/b5050/510/348387-admin_1920x1080.jpg");
+    }
+     
+  .cta-text p{
+  margin: 0;
+  padding:0;
+  background-image: url("https://s1.1zoom.me/b5050/510/348387-admin_1920x1080.jpg");
+    }
+
+    .cta-button {
+    background-color: #ff00ae;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(165, 0, 165);
+    }
+
+/*Menú🤩*/
+    .nav{
+    text-align: right;
+    background-color: rgb(255, 0, 149);
+    }
+.nav .nav-link{
+    text-decoration: none;
+       color: rgb(26, 104, 52);
+    font-size: 25px;
+    padding: 25px 25px;
+}
+   
+   
+.nav.list a:hover {
+background-color: purple;
+transform: translateY(-32px);
+ color: blanchedalmond;
+      }
+.nav-logo{
+ text-align: left;
+}
+   
