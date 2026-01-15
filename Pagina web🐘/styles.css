@@ -1,0 +1,122 @@
+*{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    background-color:  #f8f9fa  ;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo{
+    align-items: left;
+     font-size: 1.6em;
+}
+
+.ul-list{
+    display: flex;
+    text-align: right;
+   justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+}
+
+.ul-list li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-bottom: #007bff 2px solid;
+}
+
+.Home{
+    color: #007bff;
+}
+
+.About{
+    color: #32cd32;
+}
+
+.Services{
+    color: #8a2be2;
+}
+
+.Contact{
+    color: #ffd747;
+}
+
+.cta-container{
+    background-color: #e9ecef;
+    padding: 110px;
+    
+    
+}
+
+.cta-container h1{
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.cta-container p{
+    max-width: 550px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.services-container{
+    background-color: #f1f3f5;
+    padding: 34px;
+    weight: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    font-size: 2em;
+}
+
+.contact-form{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.submit{
+  background-color: #007bff ;
+  color: white;  
+ width: 30%;
+}
+
+.label{
+
+}
+.input-name{
+   border-bottom: 3px solid #32cd32; 
+}
+.input-email{
+border-bottom: 3px solid #8a2be2;
+
+}
+.input-message{
+border-bottom: 3px solid #ffd747;
+
+}
+footer{
+  text-align: center;
+    padding: 20px;
+   background-color: #f1f3f5;
+   font-family: small;
+}
