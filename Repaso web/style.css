@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 112);
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+   gap: 20px;
+}
+
+.menu-a{
+    text-decoration: none;
+    color: wheat;
+   list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-a:hover{
+    border-bottom: 3px solid wheat;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
