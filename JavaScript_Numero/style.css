@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnP9yMyBWfgeUdU3qpdXhj20iUZyFYzUp_1A&s");
+    color: yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+button{
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin-top: 10px;
+}
+input{
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin-top: 10px;
+}   

@@ -1,18 +1,49 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
 }
 
-li{
-    display: inline;
-    padding: 20px;
-    text-decoration: none;
-   background-color: blueviolet;
+header{
+   background-color: blue;
 }
-a{
-    text-decoration: none;
+
+.container-header-container{
+display: flex;
+justify-content: space-between;
 }
-a:hover{
-    color: rosybrown;
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-actions button{
+color: steelblue;
+background-color: rgb(0, 255, 225);
+border-radius: 20px;
+transition: 0.3s ease;
+}
+
+.header-actions button:hover{
+   transform: scale(1.1);
+}
+/*Cuerpo*/
+body{
+background-image: url("https://blogs.unitec.mx/hubfs/Imported_Blog_Media/ingenieria-mecanica-1-Dec-17-2022-06-52-40-8906-PM.jpg");
+}
+
+section{
+    text-align: center;
+}
+.Encabezado{
+    text-align: center;
 }
